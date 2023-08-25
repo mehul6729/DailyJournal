@@ -7,7 +7,7 @@
 <% posts.forEach(function(post){ %>
  <h1> <%= post.title%>  </h1> 
  
- <p> <%=  post.post.substring(0,100) + "...." %> <a href="https://dailyjournal-6wz8.onrender.com//<%= post.title%>">Read More</a> </p>
+ <p> <%=  post.post.substring(0,100) + "...." %> <a href="https://dailyjournal-6wz8.onrender.com/<%= post.title%>">Read More</a> </p>
 <% }); %>
 
 <%-include("partials/footer") -%>
